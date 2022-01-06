@@ -1,9 +1,15 @@
 package main_test
 
 import (
-	"log"
-	"os"
-	"testing"
+     "os"
+     "testing"
+     "log"
+     "net/http"
+     "net/http/httptest"
+     "strconv"
+     "encoding/json"
+     "bytes"
+     "github.com/SirWisher/go-mux"
 )
 
 var a main.App
